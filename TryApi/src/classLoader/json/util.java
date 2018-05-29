@@ -4,12 +4,21 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-
-import com.google.gson.Gson;
-
 public class util {
+	
+	/*public static <T> String getResourceFilePath(Class<T> getClassObject, String fileName) {
+		String absoluteFile = "";
+		ClassLoader classLoader = getClassObject.getClassLoader();
+
+		try {
+			absoluteFile = classLoader.getResource(fileName).getFile();
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return absoluteFile;
+	}
+	
 	public static <T> T load(String sourceFile, String caseName, Class<T> clazz) {
 		String jsonData = ReadJsonFile(sourceFile).get(caseName).toString();
 
@@ -44,5 +53,5 @@ public class util {
 
 		return model;
 	}
-
+*/
 }

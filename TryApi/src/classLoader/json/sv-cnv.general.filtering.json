@@ -1,0 +1,30 @@
+{
+	"STE_CnvFiltering": 
+	{
+		"vcfName": "STE_CnvFiltering.SV.vcf",
+		"analysisResultNameInput": "STE_CnvFiltering",
+		"projectNameInput": "SVCNV-Test-Project",
+		"subjectNameInput": "STE_CnvFiltering_Subject",
+		"subjectSexInput": "Female",
+		"sampleNameInput": "STE_CnvFiltering",
+		"expectedDataTypes": ["cnvposition"],
+		"sampleClass": "Germline",
+		"sort": {
+		    "columnName": "Variant",
+		    "sortType": "ascending"
+		},
+		"filePath": "vcf-file/STE_CnvFiltering.SV.vcf"
+	},
+	
+	"STE_SvFiltering": {
+	        "vcfName": "STE_SvFiltering.SV.vcf",
+	        "analysisResultNameInput": "H-Automation-AnalysisResult",
+	        "projectNameInput": "H-Automation-ProjectName",
+	        "subjectNameInput": "H-Automation-SubjectName",
+	        "sampleNameInput": "H-Automation-SampleInput",
+	        "subjectSexInput": "Female",
+	        "sampleClass": "Germline",
+	        "filePath": "vcf-file/STE_SvFiltering.SV.vcf"
+	    }
+	
+}
