@@ -11,6 +11,8 @@ public class TryToLoadCopyWriteFile {
 		String txtFilePath = "TryJavaFeatures/txtFolder/HAD-8211_manifestFile_Germline_1_Sample_successful.txt";
 		//ClassLoader classLoader = getClass.getClassLoader();
 		
+		//ClassLoader classLoader = getClass.getClassLoader(); 201812
+		
 	}
 	
 	
