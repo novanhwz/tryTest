@@ -12,7 +12,8 @@ public class ReflectTest {
 		b[1]=5;
 		
 		System.out.println(b);
-		 
+		
+		System.out.println(a);
 	}
 	
 }
